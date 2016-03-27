@@ -1,2 +1,2 @@
 # bezzie
-## Python Bezier curves and surfaces
+## Python Bezier curves
