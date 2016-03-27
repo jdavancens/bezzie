@@ -10,7 +10,7 @@ def _eval(control_points, t):
             xt = x0 + t * (x1 - x0)
             yt = y0 + t * (y1 - y0)
             new_points.append([xt, yt])
-        return bezier(new_points, t)
+        return _eval(new_points, t)
 
     else:
         return control_points
